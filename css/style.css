@@ -1,15 +1,14 @@
 @font-face {
-    font-family: "Openka";
-    src: url("/ka1.ttf") format("woff2"),
-           url("/fonts/OpenSans-Regular-webfont.woff") format("woff");
+    font-family: "kapo";
+    src: url("/ka1.ttf") format("woff2");
+           
    }
-
 
 
 body{
     margin: 0;
     padding: 0;
-font-family: Arial, Helvetica, sans-serif;
+    background: #fff;
 }
 
 .logo{
@@ -18,8 +17,8 @@ font-family: Arial, Helvetica, sans-serif;
 }
 
 .logo p{
-    font-family: "Openka" ;
-    font-size: 5vw;
+    font-family: "kapo";
+    font-size: 5rem;
 }
 
 .presentation{
@@ -27,10 +26,10 @@ font-family: Arial, Helvetica, sans-serif;
     justify-content: center;
 }
 
-h1{
+.presentation h1{
     border: 1px solid black;
     text-align: center;
-    width: 60vw;
+    font-size: 50px;
 }
 
 h2{
@@ -154,7 +153,7 @@ h2{
     transition: 0.5s;
     opacity: 0;
     transition-delay: calc(0.1s * var(--i));
-    
+    text-decoration: none;
     
 }
 
@@ -170,4 +169,61 @@ h2{
 .containera .carda .sci li a {
     color: black;
     font-size: 24px;
+    text-decoration: none; 
 }
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: black;
+}
+
+
+
+
+/* ------- RACCOURCI ------- */
+
+
+.flex{
+    display: flex;
+}
+
+.justifyC{
+    justify-content: center;
+}
+
+.justifySA{
+    justify-content: space-around;
+}
+
+.justifySB{
+    justify-content: space-between;
+}
+
+.alignC{
+    align-items: center;
+}
+
+.flexDC{
+    flex-direction: column;
+}
+
+.borderb{
+    border: 2px solid black;
+}
+
+.sise{
+    height: auto;
+    width: 100vw;
+    
+}
+
+
+
+
+
+
