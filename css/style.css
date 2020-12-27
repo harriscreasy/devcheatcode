@@ -8,7 +8,8 @@
 body{
     margin: 0;
     padding: 0;
-    background: #fff;
+    background: rgb(255,126,238);
+    background: linear-gradient(90deg, rgba(255,126,238,0.24831939611782217) 8%, rgba(158,193,255,0.237114914325105) 46%, rgba(255,203,129,0.1698880235688025) 100%); 
 }
 
 .logo{
