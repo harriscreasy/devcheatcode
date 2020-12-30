@@ -230,11 +230,9 @@
   
 }
 
-a {
-  font-size: 3rem;
-  padding: 1rem 3rem;
+.buttonNav a {
+  text-decoration: none;
   color: black;
-  text-transform: uppercase;
 }
 
 .btn {

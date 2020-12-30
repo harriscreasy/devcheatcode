@@ -1,9 +1,12 @@
+/* ---- POLICE LOGO ---- */
+
 @font-face {
     font-family: "kapo";
     src: url("/ka1.ttf") format("woff2");
            
    }
 
+/* ---- BODY ---- */
 
 body{
     margin: 0;
@@ -12,26 +15,41 @@ body{
     background: linear-gradient(90deg, rgba(255,126,238,0.24831939611782217) 8%, rgba(158,193,255,0.237114914325105) 46%, rgba(255,203,129,0.1698880235688025) 100%); 
 }
 
+/* ---- POSITION DU LOGO ---- */
+
 .logo{
     display: flex;
     justify-content: center;
 }
+
+/* ---- TAILLE ET FONT DU LOGO ---- */
 
 .logo p{
     font-family: "kapo";
     font-size: 5rem;
 }
 
+/* ---- LOGO VISITÉ ---- */
+
+.logo a:visited{
+    color: black;
+}
+
+/* ---- POSITION DE LA PRESENTATION ---- */
+
 .presentation{
     display: flex;
     justify-content: center;
 }
+
+/* ---- STYLE DE LA PRESENTATION ---- */
 
 .presentation h1{
     border: 1px solid black;
     text-align: center;
     font-size: 50px;
 }
+
 
 h2{
     color: black;
@@ -173,15 +191,6 @@ h2{
     text-decoration: none; 
 }
 
-
-a{
-    text-decoration: none;
-    color: black;
-}
-
-a:hover{
-    color: black;
-}
 
 
 
