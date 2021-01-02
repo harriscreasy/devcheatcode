@@ -161,6 +161,21 @@
 }
 
 
+.mozillafire img{
+  width: 250px;
+
+}
+
+.buttonLink{
+  width: auto;
+  font-size: 30px;
+}
+
+
+
+
+
+
 /* ----- TITLE HTML ----- */
 
 @media only screen and (max-width : 750px) 
