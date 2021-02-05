@@ -22,17 +22,9 @@ body{
     justify-content: center;
 }
 
-/* ---- TAILLE ET FONT DU LOGO ---- */
-
-.logo p{
-    font-family: "kapo";
-    font-size: 5rem;
-}
-
-/* ---- LOGO VISITÉ ---- */
-
-.logo a:visited{
-    color: black;
+.logo img{
+    width: 80vw;
+    
 }
 
 /* ---- POSITION DE LA PRESENTATION ---- */
@@ -45,9 +37,9 @@ body{
 /* ---- STYLE DE LA PRESENTATION ---- */
 
 .presentation h1{
-    border: 1px solid black;
+    border: 10px solid black;
     text-align: center;
-    font-size: 50px;
+    font-size: 2rem;
     width: 60vw;
 }
 
@@ -151,47 +143,17 @@ h2{
     text-transform: initial;
 }
 
-/* ---- CONFIGURE LES ICONES DE RESEAUX---- */
 
-.containera .carda .sci {
-    position: absolute;
-    bottom: 20px;
-    display: flex;
-    width: 100%;
-    padding: 0;
-    justify-content: center;
-   
+
+.title-footer-network{
+    margin: 30px 0;
 }
 
-/* ---- CONFIGURE LES ANIMATIONS DES ICONES DE RESEAUX---- */
 
-.containera .carda .sci li{
-    list-style: none; 
-    margin: 0 10px;
-    font-size: 20px;
-    transform: translateY(30px);
-    transition: 0.5s;
-    opacity: 0;
-    transition-delay: calc(0.1s * var(--i));
-    text-decoration: none;
-    
+.icon-footer-network img{
+    width: 90px;
+    margin: 50px 0;
 }
-
-/* ---- CONFIGURE LES ANIMATIONS DES ICONES DE RESEAUX---- */
-
-.containera .carda:hover .sci li{
-    transform: translateY(10px);
-    opacity: 1;
-}
-
-/* ---- CONFIGURE LES ICONES DE RESEAUX---- */
-
-.containera .carda .sci li a {
-    color: black;
-    font-size: 24px;
-    text-decoration: none; 
-}
-
 
 
 
@@ -232,6 +194,10 @@ h2{
     height: auto;
     width: 100vw;
     
+}
+
+.flexEn{
+    justify-content: flex-end;
 }
 
 
