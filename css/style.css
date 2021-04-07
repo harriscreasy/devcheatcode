@@ -1,18 +1,25 @@
-/* ---- POLICE LOGO ---- */
-
-@font-face {
-    font-family: "kapo";
-    src: url("/ka1.ttf") format("woff2");
-           
-   }
 
 /* ---- BODY ---- */
 
 body{
     margin: 0;
     padding: 0;
-    background: rgb(255,126,238);
-    background: linear-gradient(90deg, rgba(255,126,238,0.24831939611782217) 8%, rgba(158,193,255,0.237114914325105) 46%, rgba(255,203,129,0.1698880235688025) 100%); 
+    background: black;
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+     
+}
+
+.presentation{
+    opacity: 0;
+
+}
+
+.presentation h1{
+    color: white;
+   
+    
 }
 
 /* ---- POSITION DU LOGO ---- */
@@ -23,7 +30,7 @@ body{
 }
 
 .logo img{
-    width: 80vw;
+    width: 500px;
     
 }
 
@@ -32,21 +39,53 @@ body{
 .presentation{
     display: flex;
     justify-content: center;
+    
 }
 
 /* ---- STYLE DE LA PRESENTATION ---- */
 
 .presentation h1{
-    border: 10px solid black;
+    border: 10px solid orange;
+    border-radius: 10px;
     text-align: center;
     font-size: 2rem;
-    width: 60vw;
+   
+    padding: 15px;
+   
 }
+
+
+.car-svg img{
+    width: 90px;
+}
+
+.mes-creations{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+
+.mes-creations h1{
+    border: 10px solid orange;
+    text-align: center;
+    font-size: 2rem;
+    width: 30vw;
+    padding: 15px;
+    color: white;
+    border-radius: 10px;
+} 
 
 
 h2{
-    color: black;
+    color: white;
 }
+
+.imgclass{
+    margin-bottom: 200px;
+}
+
+
 
 
 .containera{
@@ -55,6 +94,7 @@ h2{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    
    
    
     
@@ -64,17 +104,22 @@ h2{
 
 .containera .carda{
     position: relative;
-    width: 350px;
-    height: 400px;
+    width: 250px;
+    height: 300px;
     background: rgba(255, 255, 255, 0.15);
-    margin: 20px;
+    margin: 40px 50px;
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
     border-radius: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
     backdrop-filter: blur(10px);
+    opacity: 1;
+   
 }
+
+
+
 
 
 /* ---- CONFIGURE L'INTERIEUR DE LA CARD---- */
@@ -102,8 +147,8 @@ h2{
 
 .containera .carda .contenta .imgArt{
     position: relative;
-    width: 250px;
-    height: 250px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     overflow: hidden;
     border: 10px solid rgba(0, 0, 0, 0.35);
@@ -123,7 +168,7 @@ h2{
 /* ---- CONFIGURE LE NOM DE L'ARTISTE---- */
 
 .containera .carda .contenta .contentaArt h3{
-    color: black;
+    color: white;
     text-transform: uppercase;
     letter-spacing: 2px;
     font-weight: 500;
@@ -143,17 +188,6 @@ h2{
     text-transform: initial;
 }
 
-
-
-.title-footer-network{
-    margin: 30px 0;
-}
-
-
-.icon-footer-network img{
-    width: 90px;
-    margin: 50px 0;
-}
 
 
 
@@ -202,6 +236,25 @@ h2{
 
 
 
+
+@media only screen and (max-width:500px) { 
+	.logo img{
+        width: 350px;
+    }
+
+   
+
+    .presentation h1{
+        
+        width: 90%;
+    }
+
+    .mes-creations h1{
+        width: 90%;
+    }
+
+    
+}
 
 
 

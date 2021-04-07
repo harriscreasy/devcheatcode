@@ -1,43 +1,98 @@
-/* ----- PACK TOUTES LES PAGES ----- */
 
 
-/* ---- BODY ----- */
-
-body{
-    margin: 0;
-    padding: 0;
-    background: rgb(255,126,238);
-    background: linear-gradient(90deg, rgba(255,126,238,0.24831939611782217) 8%, rgba(158,193,255,0.237114914325105) 46%, rgba(255,203,129,0.1698880235688025) 100%); 
-    
-
+html,
+body {
+ 
+  background: black;
 }
-
-
-/* ---- POSITION DU LOGO ---- */
 
 .logo{
     display: flex;
     justify-content: center;
 }
 
-/* ---- TAILLE ET FONT DU LOGO ---- */
-
-.logo p{
-    font-family: "kapo";
-    font-size: 5rem;
+.image-case img{
+    width: 300px;
 }
 
-/* ---- LOGO VISITÉ ---- */
-
-.logo a:visited{
-    color: black;
+.swiper-container {
+  width: 100%;
+  height: 100%;
+  
+  
 }
 
-.titleStarter h2{
-    font-size: 50px;
-    margin-top: 100px;
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 70vw;
+  margin: auto;
+  
+}
+
+h1{
+    color: white;
+    
+}
+
+description-case p{
+    color: white;
+    font-size: 25px;
+    width: 70%;
+    margin: auto;
 }
 
 
+@media only screen and (max-width:500px) { 
 
+    .logo img{
+        width: 300px;
+    }
 
+    .download-case h2{
+        width: 80%;
+        text-align: center;
+        
+    }
+
+    .snapchat-case h2{
+        width: 80%;
+        text-align: center;
+        
+    }
+
+    .help-case h2{
+        width: 80%;
+        text-align: center;
+        
+    }
+
+    .first-step, .second-step, .third-step{
+        display: none;
+        
+    }
+	
+    .download-case p{
+        width: 80%;
+        margin-top: 10px;
+    }
+
+    .snapchat-case p{
+        width: 80%;
+        margin-top: 10px;
+    }
+
+    .help-case p{
+        width: 80%;
+        margin-top: 10px;
+    }
+
+    .download-image, .snapchat-image, .help-image{
+        padding: 5px;
+    }
+    
+}
