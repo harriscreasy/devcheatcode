@@ -18,13 +18,15 @@ html, body{
 .title-learn h1{
     color: white;
     font-size: 40px;
-    margin: 30px 20px;
+    margin: 30px 0;
+    margin-left: 20px;
 }
 
 .exemple-title h1{
     color: white;
     font-size: 40px;
-    margin: 50px 20px;
+    margin: 50px 0;
+    margin-left: 20px;
 }
 
 .definition-learn p{
@@ -64,7 +66,7 @@ html, body{
 }
 
 .swiper-slide {
-  text-align: center;
+  
   
   /* Center slide text vertically */
   display: -webkit-box;
@@ -75,10 +77,16 @@ html, body{
   -ms-flex-pack: center;
   -webkit-justify-content: center;
   justify-content: center;
+  flex-direction: column;
   -webkit-box-align: center;
   -ms-flex-align: center;
   -webkit-align-items: center;
   align-items: center;
+  
+}
+
+.swiper-slide img{
+    width: 250px;
 }
 
 
@@ -101,7 +109,6 @@ html, body{
     display: flex;
     justify-content: center;
    
-    backdrop-filter: blur(10px);
     opacity: 1;
    
 }
@@ -174,4 +181,5 @@ html, body{
 .pub-concu h2{
     color: white;
     font-size: 40px;
+    margin-left: 20px;
 }

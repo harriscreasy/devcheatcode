@@ -11,25 +11,12 @@ body{
     justify-content: center;
 }
 
-a{
-    text-decoration: none;
-}
-
-a:visited{
-    text-decoration: none;
+.face1 a, .face2 a, .face3 a, .face4 a, .lens-base a {
     color: white;
+    text-decoration: none;
 }
 
-.apprendregif{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 50px ;
-}
 
-.apprendregif img{
-    width: 420px;
-   
-}
 
 .lens-base{
     display: flex;
@@ -49,11 +36,10 @@ a:visited{
     
 }
 
-.lens-base h2:hover{
+.objects-face-effects h2:hover{
  
   background: orangered;
-  color: black;
-  font-weight: 1000;
+  
   
 
 }
@@ -87,11 +73,10 @@ a:visited{
     
 }
 
-.objects-face-effects h2:hover{
+.objects-face-effects h2:hover, .lens-base h2:hover{
  
   background: orangered;
-  color: black;
-  font-weight: 1000;
+  
   
 
 }

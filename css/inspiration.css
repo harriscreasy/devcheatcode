@@ -1,0 +1,29 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+.inspiration-site{
+    margin: 0 20px;
+}
+
+.inspiration-site h1{
+    font-size: 30px;
+}
+
+.inspiration-site .buttonLink{
+    font-size: 20px;
+    background: black;
+    color: white;
+    border: 5px solid white;  
+    padding: 10px;  
+}
+
